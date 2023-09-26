@@ -1,6 +1,8 @@
 <h1>Fig Promotional Email</h1>
 A responsive custom coded email template to promote new product to customers.
 
+<h3><strong><a href="https://waynelemma.github.io/Fig-Email-Sample/">Click Here to View Full HTML Page</a></strong></h3>
+
 <h3>Introduction</h3>
 This project is designed to provide information to customers regarding various fig varieties. It also introduces customers to the grower of the product. It has a clean and modern design, optimized for both desktop and mobile viewing.
 
