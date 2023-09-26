@@ -17,8 +17,8 @@ The final campaign achieved an open rate of 46.7%, with a 9.8% click rate (custo
 Setup
 To run this project, simply clone the repository and open the index.html file in your browser:
 
-$ git clone [your-repository-link]
-$ cd [repository-name]
+$ git clone https://github.com/waynelemma/Fig-Email-Sample.git
+$ cd Fig-Email-Sample
 $ open index.html
 
 Features
