@@ -17,11 +17,7 @@ Subject Line A received the highest open rate at 64.1% of recipients and was sel
 The final campaign achieved an open rate of 46.7%, with a 9.8% click rate (customers who opted to be redirected to ordering platform to begin order or learn more). 
 
 <h3>Setup</h3>
-To run this project, simply clone the repository and open the index.html file in your browser:
-
-> $ git clone https://github.com/waynelemma/Fig-Email-Sample.git<br>
-> $ cd Fig-Email-Sample<br>
-> $ open index.html
+To run this project, simply click the link provided at the top of this README page!
 
 <h3>Features</h3>
 List of features:
