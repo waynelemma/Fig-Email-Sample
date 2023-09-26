@@ -1,0 +1,489 @@
+h1, h2 {
+	text-align: center;
+	color: #000000;
+	font-family: 'Arvo';
+}
+
+h2 {
+	color: #ffffff;
+	font-weight: 500;
+	font-size: 42px;
+}
+
+p {
+	text-align: left;
+	font-family: 'Open Sans';
+	color: #000000;
+}
+
+h3 {	font-family: 'Arvo';
+	color: #000000;
+	text-align: left;
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+
+p.centered-text{
+	text-align: center;
+	padding-top: 10px;
+	font-size: 18px;
+}	
+	
+.heading-subtitle {
+	font-family: 'Arvo';
+	color: #ffffff;
+	font-style: italic;
+	font-size: 25px;
+	text-align: center;	
+}
+
+.main-image {
+	max-width:66%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+}
+
+.header-image {
+    	max-width: 40%; 
+    	display: block; 
+    	margin: 0 auto; 
+    	padding: 20px;
+}
+
+.image-with-shadow {
+    	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    	max-width: 100%; 
+    	display: block; 
+    	margin: 0 auto; 
+}
+
+/* Figs Section */
+.email-body {
+    	background-color: #fff3e0;
+    	padding: 20px;
+    	text-align: center;
+    	border-radius: 5px;
+    	margin-bottom: 20px;
+}
+
+.sweepstakes h2 {
+    	color: #ff5722;
+    	font-size: 1.7rem;
+}
+
+/* Storage Tips */
+header {
+    	background-color: #ffcc80;
+    	padding: 10px;
+    	text-align: center;
+    	border-radius: 5px;
+    	margin-bottom: 20px;
+}
+
+header h1 {
+    	margin: 0;
+    	color: #fff;
+    	font-size: 2rem;
+}
+
+
+/* Order Now Section */
+.order-now {
+    	text-align: center;
+    	padding: 30px;
+    	background-color: #ffcc80;
+    	border-radius: 5px;
+	position: relative;
+}
+
+.order-image {
+    position: absolute; 
+    bottom: 0;          /* Place it at the bottom of the .order-now container */
+    left: 0;            /* Align it to the left of the .order-now container */
+    width: auto;        /* Adjust as necessary */
+    height: auto;       /* Adjust as necessary */
+    max-width: 25%;     /* Adjust as necessary */
+    z-index: 1;        /* Optional: Ensure it's layered behind other content if necessary */
+}
+
+.btn {
+    	display: inline-block;
+    	padding: 10px 10px;
+    	background-color: #166734;
+    	color: #fff;
+    	font-weight: bold;
+    	text-align: center;
+    	border-radius: 5px;
+    	text-decoration: none;
+    	transition: background-color 0.3s ease;
+    	position: relative; 
+}
+
+.btn:hover {
+    	background-color: #e64a19;
+}
+
+.email-container {
+    	max-width: 600px;
+    	margin: 0 auto;
+    	padding: 20px;
+    	background-color: #ffe0b2;
+    	border: 1px solid #d4a56e;
+    	position: relative; /* Add relative positioning to the email container */
+}
+
+/* Slideshow container */
+.slideshow-container {
+  	max-width: 1000px;
+  	position: relative;
+  	margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  	display: none;
+}
+
+/* Fade animation */
+.fade {
+  	animation-name: fade;
+  	animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  	from {opacity: .4} 
+  	to {opacity: 1}
+}
+
+.title-bar {
+    	background-color: #166734; /* Or any color you desire for the bar */
+    	width: 120%;  /* This makes the bar span the entire viewport width */
+    	position: relative; 
+    	left: 0px;
+    	right: 0px;
+	z-index: 1000;
+    	margin-top: -20px;
+	margin-left: -10%;
+	margin-right: -10%;
+   	padding: 10px; /* Adds some vertical padding to give space above and below the title */
+    	text-align: center; /* Centers the title text inside the bar */
+	border-radius: 10px;
+    	box-shadow:
+        2px 2px 0px 0px rgba(255,255,255,0.5), /* This creates the top-left highlight */
+        -2px -2px 0px 0px rgba(0, 0, 0, 0.2),  /* This creates the bottom-right shadow */
+        3px 3px 5px rgba(0, 0, 0, 0.15);      /* This adds a slight outer shadow for depth */
+}
+
+.title-bar h1 {
+    	margin: 0; /* Removes default margin from the h1 element */
+    	font-weight: 600;
+    	color: #FFF; /* Set the color of your header title, in this case, white */
+    	font-family: 'Arvo', serif;
+}
+
+
+.container-image {
+	max-width: 70%;
+	border: 6px solid #ffe0b2;
+	padding: 3px;
+}
+
+body {
+  	font-family: 'Open Sans', sans-serif;
+  	background: linear-gradient(to bottom, #fff3e0 , #ffe0b2);
+  	color: #4e4e4e;
+  	margin: 0;
+  	padding: 0;
+}
+
+.row-content {
+    	width: 100%;
+    	margin: 20px 0;
+	position: relative;
+}
+
+.row {
+    	display: flex;
+	flex-wrap: wrap;
+   	justify-content: space-between;
+    	align-items: start;
+    	margin-bottom: 20px; 
+    	position: relative;
+}
+
+.row::after {
+    	content: "";
+    	position: absolute;
+    	left: 12.5%; 
+    	bottom: 0px; 
+    	width: 75%; 
+    	height: 3px; 
+    	background-color: #ffcc80;
+}
+
+.row.with-divider::after {
+    	content: "";
+    	position: absolute;
+    	left: 12.5%; 
+    	bottom: 0px; 
+    	width: 75%; 
+    	height: 3px; 
+    	background-color: #ffcc80; 
+}
+
+.row.with-divider::before {
+    	content: "";
+    	position: absolute;
+    	left: 12.5%; 
+    	bottom: -10px; 
+    	width: 75%; 
+    	height: 1px; 
+    	background-color: #fff3e0; 
+}
+
+.box {
+    	width: 48%; /* slightly less than half to allow for a small gap between boxes */
+    	box-sizing: border-box;
+    	border: 1px solid transparent; /* invisible border */
+}
+
+/* Mobile view styles (default styles) */
+
+
+/* Desktop and Tablet view styles */
+@media (max-width: 767px) {
+    	img[src="clipart.png"] {
+        	display: none;
+    	}
+    	.text-container {
+        	margin: 0 auto;
+        	width: 100%;
+        	text-align: center;
+		
+    	}
+    	.box {
+        	width: 100%;
+        	margin-bottom: 20px;
+    	}
+    	.row {
+		flex-direction: column;
+		align-items: center;
+	}
+	.image-box, text-box {
+		width: 100%;
+		text-align: center;
+		padding: 10px 0;	
+	}
+	.image-box img {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.box.text-box {
+		width: 100%;
+	}
+	.box.image-box {
+		width: 100%;
+	}
+	.title-bar h2 {
+		width: 100%;
+		text-align: center;
+		margin-top: 10px;
+	}
+	article.text-container {
+		width: 100%;
+	}
+}
+
+.image-box {
+    	width: 40%;
+    	padding: 10px;
+}
+
+.image-box img {
+    	max-width: 100%;
+    	height: auto;
+    	display: block;
+}
+
+.text-box {
+    	width: 60%;
+    	padding: 10px;
+}
+
+.no-bullets {
+	list-style-type: none; /* Remove bullets */
+	font-family: 'Open Sans';
+	margin-left: 20px;	
+}
+
+dt {
+	text-align: left;
+	text-indent: -20px;    /* Push the first line to the left */
+    	padding-left: 20px;    /* Push the whole block to the right */
+	color: #000000;
+}
+
+.centered-list {
+    	list-style-position: inside; /* Position the bullet points inside of the list item */
+    	padding-left: 0;             /* Remove default padding on the left side */
+	font-weight: bold;	
+}
+
+.centered-list dt {
+    	display: flex;               /* Flex layout for easy vertical centering */
+   	align-items: center;         /* Center vertically */
+   	margin-bottom: 20px;         /* Adjust as needed for spacing between list items */
+}
+
+.order-now-box {
+	text-align: center;
+	margin: 20px;
+}
+
+.storage-tips {
+	color: #000000;
+}
+
+.storage-container {
+    	display: flex;
+	text-align: center;
+}
+
+.text-container p {
+    	width: 100%;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
+}
+
+.responsive-img {
+    	width: 80%;
+    	height: auto;
+}
+
+.email-footer {
+    	display: flex;
+    	padding: 20px;
+	flex-direction: column;
+    	background-color: #ffe0b2;
+    	font-family: 'Open Sans', sans-serif;
+}
+
+.footer-logo {
+    	flex: 0 0 33%;
+   	width: 33%;
+    	margin-right: 15px;
+	margin-top:18px;
+
+}
+
+.footer-img {
+    	width: 100%;
+    	max-width: 100px; /* adjust size as needed */
+}
+
+.footer-details {
+    	flex: 0 0 66%;
+    	max-width: 66%;
+	font-size: 12px;
+}
+
+.footer-links {
+    	list-style-type: none;
+    	padding: 0;
+    	margin-bottom: 10px;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: right;
+	
+}
+
+.footer-links li {
+    	display: inline-block;
+    	margin-right: 10px;
+}
+
+.footer-links li a {
+    	text-decoration: none;
+    	color: #333;
+}
+
+.unsubscribe-btn {
+    	display: inline-block;
+    	padding: 5px 15px;
+}
+
+.footer-address {
+	text-align: right;
+}
+
+.footer-bottom-bar {
+    	background-color: #ffe0b2; /* The green color */
+    	text-align: center;       /* To center the links and dividers */
+	width: 100%;
+}
+
+.footer-link {
+    	color: #000000;          /* White color for the links */
+    	font-size: 12px;         /* Small font size */
+    	text-decoration: none;   /* Remove underline from links */
+    	margin: 0 10px;          /* Some spacing around the links */
+}
+
+.footer-link:hover {
+    	text-decoration: underline; /* Optional: underline on hover for better UX */
+}
+
+.divider {
+    	color: #000000;           /* White color for the divider */
+    	font-size: 12px;          /* Match font size of links */
+}
+
+.footer-top-section {
+	display: flex;
+}	
+
+.footer-bottom-bar p {
+	color: #000000;          
+    	font-size: 12px;  
+	text-align: center;       
+}
+
+<---Social Links--->
+
+.social-row {
+    	display: flex;
+    	justify-content: center; /* Center the links horizontally */
+    	padding: 20px 0; /* Add some vertical padding to separate from other footer content */
+}
+
+.social-row a {
+    	margin: 0 5px; /* Add some horizontal margin between each link */
+	text-decoration: none;
+}
+
+.social-row img {
+    width: 30px; /* Adjust the image size as required */
+    height: 30px;
+    transition: 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.social-row img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.video-wrapper {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+margin-bottom: 25px;
+} 
+
+
+
+
+
+
+
