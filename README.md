@@ -1,4 +1,4 @@
-Fig Promotional Email
+<h1>Fig Promotional Email</h1>
 A responsive custom coded email template to promote new product to customers.
 
 Introduction
