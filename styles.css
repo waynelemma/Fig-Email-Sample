@@ -46,10 +46,10 @@ p.centered-text{
 }
 
 .header-image {
-    	max-width: 40%; 
+    	max-width: 30%; 
     	display: block; 
     	margin: 0 auto; 
-    	padding: 20px;
+    	padding: 10px;
 }
 
 .image-with-shadow {
