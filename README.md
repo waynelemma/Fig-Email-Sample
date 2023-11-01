@@ -12,9 +12,9 @@ A/B testing was performed with two seperate subject lines to evaluate performanc
 Subject Line A: "3 Exciting New Fig Varieties for Your Menu!"
 Subject Line B: "New Product Alert! 🚨"
 
-Subject Line A received the highest open rate at 64.1% of recipients and was selected for the campaign. 
+Subject Line B received the highest open rate at 35.9% of recipients and was selected for the campaign. 
 
-The final campaign achieved an open rate of 46.7%, with a 9.8% click rate (customers who opted to be redirected to ordering platform to begin order or learn more). 
+The final campaign achieved an open rate of 46.7%, with a 10.8% click rate (customers who opted to be redirected to ordering platform to begin order or learn more). 
 
 <h3>Setup</h3>
 To run this project, simply click the link provided at the top of this README page!
